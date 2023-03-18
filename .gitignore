@@ -32,6 +32,12 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Exclude all .env files
+*.env
+
+#Exclude the API key
+env.g.dart
+
 # Symbolication related
 app.*.symbols
 
